@@ -1,0 +1,329 @@
+*{
+    outline:0%;
+    padding:0%;
+    margin: 0%;
+}
+body{
+    background-color:rgb(245, 245, 232);
+    overflow: hidden;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.navright{
+    display: flex;
+    position: absolute;
+    right: 6%;
+    justify-content:center;
+    align-items: end;
+    padding-top: 5px;
+}
+.navright>i{
+    margin: 0px 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.navright>i:nth-child(n+7){
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+.navright>i h6{
+    padding-top: 6px;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+.navrighttext{
+    height: 100%;
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    align-items: center;
+}
+.navleft{
+    display: flex;
+    position: relative;
+    left: 5%;
+}
+.navleft>i{
+    font-size: 40px;
+    margin: 5px 10px;
+}
+.navleft>input{
+    margin: 10px 0px;
+    padding-right: 90px;
+    padding-left: 30px;
+    background-color: rgb(240, 244, 240);
+    border:none;
+    border-radius: 2px;
+}
+.navleftsearch{
+    position: absolute;
+    left: 19%;
+    top:16px;
+}
+.body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 22px;
+}
+.left{
+    height: auto;
+    width:auto;
+    padding-left: 67px;
+}
+.lefttop{
+    height: 63vh;
+    width: 225px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    font-size: 13px;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.lefttop1{
+    background-color: rgb(221, 244, 221);
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    top: 0%;
+    border: 1px solid rgb(221, 244, 221);
+    border-radius: 10px 10px 0px 0px;
+}
+.lefttop1>img{
+    height: 12vh;
+    width: 32%;
+    border: none;
+    border-radius: 50%;
+    margin-left: 33%;
+    margin-top: 23px;
+    border: 3px solid white;
+}
+.lefttop>h4{
+    position: relative;
+    font-size: 15px;
+    margin-left: 28px;
+    margin-top: 20vh;
+}
+.lefttop li:first-child{
+    padding-bottom: 5px;
+    line-height: 30px;
+    border-bottom:1px solid black ;
+    width: 100%;
+    text-align: center;
+}
+.lefttop li:nth-child(2){
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.lefttop li:nth-child(3){
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.lefttop li:nth-child(4){
+    margin-left: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;   
+    width: 96%;
+    padding-bottom: 15px;
+}
+.lefttop li:nth-child(5){
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.lefttop li:nth-child(6){
+    font-size: 15px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.lefttop li:nth-child(7){
+    display: flex;
+    font-size: 15px;
+    margin-left: 10px;
+    border-top: 1px solid black;
+    padding: 12px;
+}
+.leftbottom{
+    background-color: white;
+    height: 23vh;
+    width: 225px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.leftbottom>h6{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.leftbottomtext{
+    display: flex;
+    flex-direction: column;
+}
+.leftbottomtext div{
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 15px;
+}
+.middle1{
+    width: auto;
+    height: auto;
+    margin-left: 21px;
+}
+.middle{
+    background-color: white;
+    height: 116px;
+    width: 555px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.middleprofile>img{
+    width: 51px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+.middlesearch>input{
+    width: 448px;
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 25px;
+    top: 12px;
+    left: 75px;
+    padding-left: 15px;
+    position: absolute;
+}
+.middlemenu{
+    position: absolute;
+    bottom: 10px;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.middlemenu div>i{
+    font-size: 20px;
+}
+#mm1{
+    color: blue;
+}
+#mm2{
+    color: green;
+}
+#mm3{
+    color: coral;
+}
+#mm4{
+    color: orange;
+}
+.middleline{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.line{
+    border-bottom: 1px solid black;
+    width: 87%;
+    height: auto;
+    margin-right: 5px;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.middlelast{
+    background-color: white;
+    height: 72%;
+    width: 555;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.middlelast>h4{
+    padding: 15px;
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 94%;
+}
+.middlelast>p{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 20%;
+    text-align: justify;
+    line-height: 22px;
+    text-indent: 20px;
+    margin:0px 15px;
+}
+.right{
+    width: 100%;
+    height: auto;
+    margin-left: 22px;
+}
+.righttop{
+    background-color: white;
+    width: 300px;
+    height: 322px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.righttop>ul{
+    padding: 15px;
+    line-height: 23px;
+}
+.righttop ul>p{
+    font-size: 12px;
+}
+.righttop ul>h6{
+    font-size: 15px;
+    padding-top: 12px;
+}
+.rightbottom{
+    background-color: white;
+    width: 300px;
+    height: 190px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    line-height: 30px;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.rightbottom>i{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:900px){
+    .navright>i{
+        font-size: 10px;
+    }
+
+}
